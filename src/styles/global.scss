@@ -1,5 +1,8 @@
-/* *** Color Palette ** */
+/* *** Color Palette & Variables ** */
 $primary: gold;
 $secondary: grey;
 $black: black;
 $white: white;
+
+/* *** Style Modules *** */
+@import "./header";
