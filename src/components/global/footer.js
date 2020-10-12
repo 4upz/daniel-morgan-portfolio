@@ -1,11 +1,16 @@
 import React from "react"
+import Logo from "../shared/logo"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => (
     <footer className="footer">
         <div className="social-links">
-            <p>Instagram</p>
+            <a className="icon instagram" href="https://www.instagram.com/">
+                <FontAwesomeIcon icon={faInstagram} />
+            </a>
         </div>
-        <h1>DSMJR</h1>
+        <Logo />
         Copyright © {new Date().getFullYear()} Daniel Morgan Jr., All Rights
         Reserved
     </footer>

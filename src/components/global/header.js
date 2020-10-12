@@ -1,13 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from "../shared/logo"
 
 const Header = () => (
     <header className="header">
         <div className="logo">
-            <Link to="/">
-                <h1>DSMJR</h1>
-            </Link>
+            <Logo />
         </div>
         <nav className="nav">
             <ul className="menu">
