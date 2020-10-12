@@ -9,6 +9,10 @@
         position: absolute;
         min-height: 40px;
         left: 25%;
+        a {
+            text-decoration: none;
+            color: $black;
+        }
         h1 {
             margin: 0;
         }

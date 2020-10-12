@@ -5,7 +5,9 @@ import React from "react"
 const Header = () => (
     <header className="header">
         <div className="logo">
-            <h1>DSMJR</h1>
+            <Link to="/">
+                <h1>DSMJR</h1>
+            </Link>
         </div>
         <nav className="nav">
             <ul className="menu">
