@@ -17,6 +17,14 @@ h1 {
     padding: 0 1.0875rem 1.45rem;
 }
 
+.section {
+    margin: 2rem 0;
+
+    &.hero {
+        height: calc(100vh - 125px);
+    }
+}
+
 .footer {
     margin: auto;
     padding: 2rem;

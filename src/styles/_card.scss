@@ -1,0 +1,14 @@
+.card {
+    height: 400px;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    background-color: $gold;
+    text-align: center;
+    border: 1px solid $black;
+
+    .card-title {
+        color: $white;
+        font-size: 3rem;
+    }
+}
