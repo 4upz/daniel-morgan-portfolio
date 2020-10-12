@@ -8,10 +8,20 @@ const Header = () => (
             <h1>DSMJR</h1>
         </div>
         <nav className="nav">
-            <Link to="/">About</Link>
-            <Link to="/">Ministry</Link>
-            <Link to="/">Businesses</Link>
-            <Link to="/">Contact</Link>
+            <ul className="menu">
+                <li>
+                    <Link to="/">About</Link>
+                </li>
+                <li>
+                    <Link to="/">Ministry</Link>
+                </li>
+                <li>
+                    <Link to="/">Businesses</Link>
+                </li>
+                <li>
+                    <Link to="/">Contact</Link>
+                </li>
+            </ul>
         </nav>
     </header>
 )
