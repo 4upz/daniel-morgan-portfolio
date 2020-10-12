@@ -1,5 +1,19 @@
 .wrap {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 1200px;
     padding: 0 1.0875rem 1.45rem;
+}
+
+.footer {
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: $grey;
+    color: $white;
+
+    h1 {
+        color: $black;
+        font-size: 2rem;
+    }
 }
