@@ -4,6 +4,7 @@ import SEO from "../components/global/seo"
 import Section from "../components/shared/section"
 import Card from "../components/cards/card"
 import Banner from "../components/shared/banner"
+import Quote from "../components/cards/quote"
 
 const IndexPage = () => (
     <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
                 title="Daniel Morgan Jr."
                 subtitle="Weirdest Kid From Cleveland"
             />
+            <Quote text="God should always be first and the middle of everything in our lives." />
         </Section>
     </Layout>
 )

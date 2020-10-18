@@ -1,14 +1,35 @@
 .card {
-    height: 400px;
     width: 80%;
-    padding: 10px;
+    padding: 1rem;
     margin: auto;
-    background-color: $gold;
+    color: $white;
+    background-color: $black;
     text-align: center;
-    border: 1px solid $black;
 
     .card-title {
         color: $white;
         font-size: 3rem;
+    }
+
+    &.quote {
+        position: relative;
+        .quote {
+            margin: auto;
+            max-width: 80%;
+        }
+
+        .icon {
+            position: absolute;
+            color: $gold;
+            font-size: 25px;
+            &.left {
+                left: 15px;
+                top: 10px;
+            }
+            &.right {
+                right: 15px;
+                bottom: 10px;
+            }
+        }
     }
 }

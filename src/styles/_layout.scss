@@ -1,3 +1,23 @@
+h1 {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.divider {
+    margin: 2rem auto;
+    width: 50%;
+    border: 1px solid $black;
+    height: 0;
+}
+
 .logo-link {
     text-decoration: none;
     color: $red;
@@ -6,10 +26,6 @@
     &:hover {
         color: $light-gold;
     }
-}
-
-h1 {
-    margin: 0;
 }
 
 .wrap {
@@ -77,16 +93,12 @@ h1 {
 }
 
 .banner {
-    h2 {
+    margin: 0.5rem 0;
+    h1 {
         margin-bottom: 0.5rem;
         color: $red;
     }
     h4 {
         margin: 0;
     }
-}
-
-.center {
-    text-align: center;
-    margin: auto;
 }

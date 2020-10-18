@@ -1,6 +1,6 @@
 import React from "react"
 import Logo from "../shared/logo"
-import SocialLinks from "../shared/socialLinks"
+import SocialLinks from "./socialLinks"
 
 const Footer = () => (
     <footer className="footer">

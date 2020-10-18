@@ -1,9 +1,11 @@
 import PropTypes from "prop-types"
 import React from "react"
+import Divider from "./divider"
 
 const Section = ({ background, isHero, children }) => (
     <div className={`section ${background} ${isHero && "hero"}`}>
         {children}
+        <Divider />
     </div>
 )
 

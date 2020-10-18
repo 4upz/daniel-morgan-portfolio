@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from "../shared/logo"
-import SocialLinks from "../shared/socialLinks"
+import SocialLinks from "./socialLinks"
 
 const Header = () => (
     <header className="header">
