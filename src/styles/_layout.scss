@@ -1,12 +1,13 @@
 .logo-link {
     text-decoration: none;
-    color: $black;
+    color: $red;
     transition: color 0.2s ease;
 
     &:hover {
         color: $light-gold;
     }
 }
+
 h1 {
     margin: 0;
 }
@@ -18,7 +19,7 @@ h1 {
 }
 
 .section {
-    margin: 2rem 0;
+    margin: 1rem 0;
 
     &.hero {
         height: calc(100vh - 125px);
@@ -45,10 +46,9 @@ h1 {
     font-size: 1.5rem;
 
     .icon {
-        margin: 0 1rem;
         padding: 0 1rem;
         text-decoration: none;
-        color: $white;
+        color: $red;
 
         &:hover {
             cursor: pointer;
@@ -74,4 +74,19 @@ h1 {
             }
         }
     }
+}
+
+.banner {
+    h2 {
+        margin-bottom: 0.5rem;
+        color: $red;
+    }
+    h4 {
+        margin: 0;
+    }
+}
+
+.center {
+    text-align: center;
+    margin: auto;
 }

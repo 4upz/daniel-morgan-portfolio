@@ -3,18 +3,16 @@ import Layout from "../components/global/layout"
 import SEO from "../components/global/seo"
 import Section from "../components/shared/section"
 import Card from "../components/cards/card"
+import Banner from "../components/shared/banner"
 
 const IndexPage = () => (
     <Layout>
         <SEO title="Home" />
         <Section isHero>
-            <Card
+            <Banner
                 title="Daniel Morgan Jr."
-                subTitle="Weirdest Kid from Cleveland"
-            >
-                <p>Welcome</p>
-                <p>Content Here</p>
-            </Card>
+                subtitle="Weirdest Kid From Cleveland"
+            />
         </Section>
     </Layout>
 )
