@@ -1,5 +1,6 @@
 h1 {
     margin: 0;
+    font-size: 54px;
 }
 
 .center {
@@ -11,10 +12,26 @@ h1 {
     display: inline-block;
 }
 
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.overlap {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .divider {
     margin: 2rem auto;
     width: 50%;
     border: 1px solid $black;
+    background-color: $black;
     height: 0;
 }
 
@@ -44,7 +61,7 @@ h1 {
 
 .footer {
     margin: auto;
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     background-color: $light-grey;
     color: $white;
@@ -101,4 +118,8 @@ h1 {
     h4 {
         margin: 0;
     }
+}
+
+.home-hero {
+    position: relative;
 }

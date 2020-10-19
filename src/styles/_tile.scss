@@ -1,0 +1,27 @@
+.tile-container {
+    display: flex;
+    flex-direction: row;
+
+    .tile {
+        box-sizing: border-box;
+        width: calc(100% / 3);
+        min-height: 700px;
+        text-align: center;
+        background-color: $red;
+        position: relative;
+
+        .tile-content {
+            width: 100%;
+            h2 {
+                font-size: 54px;
+                color: $white;
+                text-transform: uppercase;
+            }
+
+            .card {
+                min-height: 150px;
+                position: relative;
+            }
+        }
+    }
+}

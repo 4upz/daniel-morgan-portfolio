@@ -1,6 +1,6 @@
 .card {
     width: 80%;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: auto;
     color: $white;
     background-color: $black;
@@ -13,7 +13,10 @@
 
     &.quote {
         position: relative;
-        .quote {
+        margin: 0;
+        z-index: 2;
+        width: 60%;
+        .quote-text {
             margin: auto;
             max-width: 80%;
         }
