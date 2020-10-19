@@ -37,7 +37,7 @@ const IndexPage = () => (
                 </TileContainer>
             </Container>
         </Section>
-        <Section></Section>
+        <Section>{/* Enter Reviews Here */}</Section>
     </Layout>
 )
 
