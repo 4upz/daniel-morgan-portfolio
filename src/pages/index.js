@@ -3,11 +3,12 @@ import Layout from "../components/global/layout"
 import SEO from "../components/global/seo"
 import Section from "../components/shared/section"
 import Banner from "../components/shared/banner"
-import Quote from "../components/cards/quote"
+import Quote from "../components/cards/quoteCard"
 import TileContainer from "../components/tiles/tileContainer"
 import Tile from "../components/tiles/tile"
 import Container from "../components/shared/container"
 import Reviews from "../components/reviews/reviews"
+import CTACard from "../components/cards/ctaCard"
 
 const IndexPage = () => (
     <Layout>
@@ -44,6 +45,14 @@ const IndexPage = () => (
         <Section>
             <Reviews />
         </Section>
+        <Container className="contact-cta">
+            <CTACard
+                cardText="Let's Work Together"
+                buttonText="Get in Touch"
+                buttonLink="/contact"
+                className="full"
+            />
+        </Container>
     </Layout>
 )
 

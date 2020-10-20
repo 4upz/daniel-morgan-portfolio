@@ -6,11 +6,6 @@
     background-color: $black;
     text-align: center;
 
-    .card-title {
-        color: $white;
-        font-size: 3rem;
-    }
-
     &.quote {
         position: relative;
         margin: 0;
@@ -33,6 +28,22 @@
                 right: 15px;
                 bottom: 10px;
             }
+        }
+    }
+
+    &.review {
+        width: 50%;
+        margin: 2rem auto;
+        margin-top: 1rem;
+        padding: 1rem;
+
+        .content {
+            margin-bottom: 0;
+        }
+
+        .name {
+            text-align: right;
+            margin-right: 3rem;
         }
     }
 }

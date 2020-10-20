@@ -1,0 +1,14 @@
+.contact-cta {
+    position: relative;
+    box-sizing: border-box;
+    margin: 3rem 0;
+
+    .card {
+        background-color: $gold;
+
+        p {
+            font-size: 30px;
+            color: $black;
+        }
+    }
+}

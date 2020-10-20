@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons"
 
-const Quote = ({ text }) => (
+const QuoteCard = ({ text }) => (
     <div className="card quote overlap">
         <FontAwesomeIcon icon={faQuoteLeft} className="icon left" />
         <p className="quote-text">{text}</p>
@@ -11,8 +11,8 @@ const Quote = ({ text }) => (
     </div>
 )
 
-Quote.propTypes = {
+QuoteCard.propTypes = {
     text: PropTypes.string.isRequired,
 }
 
-export default Quote
+export default QuoteCard

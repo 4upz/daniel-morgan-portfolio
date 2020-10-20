@@ -1,3 +1,10 @@
 .reviews {
     text-align: center;
+
+    .review-content {
+        padding-bottom: 0.5rem;
+        .button {
+            bottom: 60px;
+        }
+    }
 }

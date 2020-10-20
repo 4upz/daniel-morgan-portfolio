@@ -10,9 +10,9 @@ const Section = ({ background, isHero, children }) => (
 )
 
 Section.propTypes = {
-    children: PropTypes.node.isRequired,
     isHero: PropTypes.bool,
     background: PropTypes.oneOf(["primary", "secondary"]),
+    children: PropTypes.node.isRequired,
 }
 
 Section.defaultProps = {
