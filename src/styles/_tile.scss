@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
 
-    .tile {
+    .tile-background {
         box-sizing: border-box;
         width: calc(100% / 3);
         min-height: calc(100vh - 300px);

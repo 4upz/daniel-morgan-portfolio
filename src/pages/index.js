@@ -4,8 +4,7 @@ import SEO from "../components/global/seo"
 import Section from "../components/shared/section"
 import Banner from "../components/shared/banner"
 import Quote from "../components/cards/quoteCard"
-import TileContainer from "../components/tiles/tileContainer"
-import Tile from "../components/tiles/tile"
+import HeroTiles from "../components/tiles/heroTiles"
 import Container from "../components/shared/container"
 import Reviews from "../components/reviews/reviews"
 import CTACard from "../components/cards/ctaCard"
@@ -20,26 +19,8 @@ const IndexPage = () => (
             />
             <Container className="home-hero">
                 <Quote text="God should always be first and the middle of everything in our lives." />
-                <TileContainer>
-                    <Tile
-                        title="About"
-                        description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
-                        ctaText="Discover"
-                        ctaLink="/about"
-                    />
-                    <Tile
-                        title="Ministry"
-                        description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
-                        ctaText="Discover"
-                        ctaLink="/ministry"
-                    />
-                    <Tile
-                        title="Business"
-                        description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
-                        ctaText="Discover"
-                        ctaLink="/business"
-                    />
-                </TileContainer>
+                {/* TODO: Make the HeroTiles a flexible Component Again */}
+                <HeroTiles />
             </Container>
         </Section>
         <Section>
