@@ -12,6 +12,7 @@ const CTACard = ({ cardText, buttonText, buttonLink }) => (
 CTACard.propTypes = {
     cardText: PropTypes.string.isRequired,
     buttonText: PropTypes.string.isRequired,
+    buttonLink: PropTypes.string.isRequired,
 }
 
 export default CTACard

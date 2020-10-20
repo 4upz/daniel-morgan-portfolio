@@ -1,4 +1,6 @@
 .button {
+    background-color: $white;
+    color: $black;
     padding: 0.5rem 2rem;
     border: 1px solid $black;
     font-weight: bold;
@@ -6,8 +8,12 @@
     transition: 0.2s all ease;
     border-radius: 1px;
 
+    &.link {
+        text-decoration: none;
+    }
+
     &:hover {
-        color: white;
+        color: $white;
         background-color: $gold;
         border-color: black;
     }

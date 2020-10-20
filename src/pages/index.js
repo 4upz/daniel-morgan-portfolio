@@ -7,6 +7,7 @@ import Quote from "../components/cards/quote"
 import TileContainer from "../components/tiles/tileContainer"
 import Tile from "../components/tiles/tile"
 import Container from "../components/shared/container"
+import Reviews from "../components/reviews/reviews"
 
 const IndexPage = () => (
     <Layout>
@@ -23,21 +24,26 @@ const IndexPage = () => (
                         title="About"
                         description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
                         ctaText="Discover"
+                        ctaLink="/about"
                     />
                     <Tile
                         title="Ministry"
                         description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
                         ctaText="Discover"
+                        ctaLink="/ministry"
                     />
                     <Tile
                         title="Business"
                         description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
                         ctaText="Discover"
+                        ctaLink="/business"
                     />
                 </TileContainer>
             </Container>
         </Section>
-        <Section>{/* Enter Reviews Here */}</Section>
+        <Section>
+            <Reviews />
+        </Section>
     </Layout>
 )
 

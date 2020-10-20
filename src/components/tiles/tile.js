@@ -2,11 +2,15 @@ import React from "react"
 import PropTypes from "prop-types"
 import CTACard from "../cards/ctaCard"
 
-const Tile = ({ title, description, ctaText }) => (
+const Tile = ({ title, description, ctaText, ctaLink }) => (
     <div className="tile">
         <div className="tile-content vertical-center">
             <h2>{title}</h2>
-            <CTACard cardText={description} buttonText={ctaText} />
+            <CTACard
+                cardText={description}
+                buttonText={ctaText}
+                buttonLink={ctaLink}
+            />
         </div>
     </div>
 )
