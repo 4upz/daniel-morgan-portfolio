@@ -5,6 +5,7 @@ import MinistryBackground from "./ministryBackground"
 import BusinessBackground from "./businessBackground"
 import Tile from "./Tile"
 
+// TODO: Have this pull from json list or array of quotes
 const HeroTiles = () => (
     <Container className="tile-container">
         <AboutBackground className="tile-background">

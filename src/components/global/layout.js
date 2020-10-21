@@ -10,12 +10,14 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import Footer from "./footer"
 import "../../styles/global.scss"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 const Layout = ({ children }) => {
     return (
         <>
             <Header />
-                <main>{children}</main>
+            <main>{children}</main>
             <Footer />
         </>
     )

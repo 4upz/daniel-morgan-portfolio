@@ -3,6 +3,11 @@
 
     .review-content {
         padding-bottom: 0.5rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+
         .button {
             bottom: 60px;
         }
