@@ -3,7 +3,7 @@ import Container from "../shared/container"
 import AboutBackground from "./aboutBackground"
 import MinistryBackground from "./ministryBackground"
 import BusinessBackground from "./businessBackground"
-import Tile from "./Tile"
+import Tile from "./tile"
 
 // TODO: Have this pull from json list or array of quotes
 const HeroTiles = () => (
