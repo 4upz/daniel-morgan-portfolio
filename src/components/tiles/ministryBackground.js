@@ -20,10 +20,13 @@ const MinistryBackground = ({ className, children }) => (
             const imageData = data.desktop.childImageSharp.fluid
             return (
                 <BackgroundImage
-                    Tag="section"
+                    Tag="div"
                     className={className}
                     fluid={imageData}
                     backgroundColor={`#040e18`}
+                    objectFit="cover"
+                    objectPosition="50% 0%"
+                    style={{ backgroundPosition: "50% 25%" }}
                 >
                     {children}
                 </BackgroundImage>

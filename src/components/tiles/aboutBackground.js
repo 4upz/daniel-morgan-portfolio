@@ -20,10 +20,12 @@ const AboutBackground = ({ className, children }) => (
             const imageData = data.desktop.childImageSharp.fluid
             return (
                 <BackgroundImage
-                    Tag="section"
+                    Tag="div"
                     className={className}
                     fluid={imageData}
                     backgroundColor={`#040e18`}
+                    objectFit="cover"
+                    objectPosition="50% 50%"
                 >
                     {children}
                 </BackgroundImage>
