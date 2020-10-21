@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import BackgroundImage from "gatsby-background-image"
 import { StaticQuery } from "gatsby"
 
