@@ -13,7 +13,7 @@ const HeroTiles = () => (
                 description="Lorem ipsum dolor sit amet, consetetur
         sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
         dolore magna."
-                ctaText="Discover"
+                ctaText="Learn More"
                 ctaLink="/about"
             />
         </AboutBackground>
@@ -29,7 +29,7 @@ const HeroTiles = () => (
             <Tile
                 title="Business"
                 description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
-                ctaText="Discover"
+                ctaText="Learn More"
                 ctaLink="/business"
             />
         </BusinessBackground>
