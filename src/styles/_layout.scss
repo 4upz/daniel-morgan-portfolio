@@ -15,6 +15,12 @@ h1 {
     width: 100% !important;
 }
 
+.accent-font {
+    font-family: anisette-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .vertical-center {
     margin: 0;
     position: absolute;
@@ -42,6 +48,10 @@ h1 {
     text-decoration: none;
     color: $red;
     transition: color 0.2s ease;
+
+    h1 {
+        @include accent-font;
+    }
 
     &:hover {
         color: $light-gold;
@@ -115,6 +125,7 @@ h1 {
 .banner {
     margin: 0.5rem 0;
     h1 {
+        @include accent-font;
         margin-bottom: 0.5rem;
         color: $red;
     }

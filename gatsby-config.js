@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
     siteMetadata: {
         title: `Daniel Morgan Portfolio`,
@@ -34,8 +36,18 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography`,
             },
         },
+        {
+            resolve: "gatsby-plugin-web-font-loader",
+            options: {
+                typekit: {
+                    id: process.env.TYPEKIT_ID,
+                },
+            },
+        },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         // `gatsby-plugin-offline`,
     ],
 }
+
+console.log(process.env.TYPEKIT_ID)
