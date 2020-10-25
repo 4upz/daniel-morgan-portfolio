@@ -17,3 +17,13 @@
         }
     }
 }
+
+.ig-feed {
+    h1 {
+        @include accent-font;
+        text-align: center;
+    }
+    .lightwidget-widget {
+        min-height: 1000px;
+    }
+}

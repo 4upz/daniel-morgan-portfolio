@@ -7,6 +7,7 @@ import QuotesCard from "../components/cards/quotesCard"
 import HeroTiles from "../components/tiles/heroTiles"
 import Container from "../components/shared/container"
 import Reviews from "../components/sliders/reviews"
+import InstagramFeed from "../components/sliders/instagramFeed"
 import CTACard from "../components/cards/ctaCard"
 
 const IndexPage = () => (
@@ -25,6 +26,9 @@ const IndexPage = () => (
         </Section>
         <Section>
             <Reviews />
+        </Section>
+        <Section>
+            <InstagramFeed />
         </Section>
         <Container className="contact-cta">
             <CTACard

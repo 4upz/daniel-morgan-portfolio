@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons"
 import Slider from "react-slick"
@@ -34,9 +33,5 @@ const QuotesCard = () => (
         <FontAwesomeIcon icon={faQuoteRight} className="icon right" />
     </div>
 )
-
-QuotesCard.propTypes = {
-    quotes: PropTypes.string.isRequired,
-}
 
 export default QuotesCard
