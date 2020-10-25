@@ -21,7 +21,7 @@ const sliderSettings = {
 }
 
 const QuotesCard = () => (
-    <div className="card quote overlap">
+    <div className="card quote overlap top">
         <FontAwesomeIcon icon={faQuoteLeft} className="icon left" />
         <Slider {...sliderSettings}>
             {quotes.map(quote => (
