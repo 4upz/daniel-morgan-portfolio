@@ -3,10 +3,10 @@ import Layout from "../components/global/layout"
 import SEO from "../components/global/seo"
 import Section from "../components/shared/section"
 import Banner from "../components/shared/banner"
-import Quote from "../components/cards/quoteCard"
+import QuotesCard from "../components/cards/quotesCard"
 import HeroTiles from "../components/tiles/heroTiles"
 import Container from "../components/shared/container"
-import Reviews from "../components/reviews/reviews"
+import Reviews from "../components/sliders/reviews"
 import CTACard from "../components/cards/ctaCard"
 
 const IndexPage = () => (
@@ -18,7 +18,7 @@ const IndexPage = () => (
                 subtitle="Weirdest Kid From Cleveland"
             />
             <Container className="home-hero">
-                <Quote text="God should always be first and the middle of everything in our lives." />
+                <QuotesCard />
                 {/* TODO: Make the HeroTiles a flexible Component Again */}
                 <HeroTiles />
             </Container>
@@ -28,7 +28,7 @@ const IndexPage = () => (
         </Section>
         <Container className="contact-cta">
             <CTACard
-                cardText="Let's Work Together"
+                cardText="Let's Work Together!"
                 buttonText="Get in Touch"
                 buttonLink="/contact"
                 className="full"

@@ -1,10 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
+import Container from "./container"
 
 const Logo = () => (
-    <Link to="/" className="logo-link">
-        <h1>DSMJR</h1>
-    </Link>
+    <Container className="logo">
+        <Link to="/" className="logo-link">
+            <h1>DSMJR</h1>
+        </Link>
+    </Container>
 )
 
 export default Logo

@@ -13,5 +13,27 @@ $white: #ffffff;
     font-style: normal;
 }
 
+@mixin color-shift($base-color, $hover-color) {
+    position: relative;
+    transition: all 0.2s ease;
+    overflow: hidden;
+    background: linear-gradient(
+        to right,
+        $hover-color,
+        $hover-color 50%,
+        $base-color 50%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+
+    &:hover {
+        background-position: 0 100%;
+    }
+}
+
 /* *** Style Modules *** */
-@import "layout", "header", "card", "tile", "input", "reviews", "contact";
+@import "layout", "header", "card", "tile", "input", "sliders", "contact";
