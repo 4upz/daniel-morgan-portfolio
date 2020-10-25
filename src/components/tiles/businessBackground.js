@@ -6,7 +6,7 @@ const BusinessBackground = ({ className, children }) => (
     <StaticQuery
         query={graphql`
             query {
-                desktop: file(relativePath: { eq: "dm-business.jpg" }) {
+                desktop: file(relativePath: { eq: "dm-about.jpg" }) {
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
                             ...GatsbyImageSharpFluid_withWebp
@@ -28,7 +28,7 @@ const BusinessBackground = ({ className, children }) => (
                     fluid={imageDataWithOverlay}
                     backgroundColor={`#040e18`}
                     objectFit="cover"
-                    objectPosition="50% 50%"
+                    objectPosition="50% 0%"
                 >
                     {children}
                 </BackgroundImage>

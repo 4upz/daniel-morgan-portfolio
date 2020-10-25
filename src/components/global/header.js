@@ -5,9 +5,7 @@ import SocialLinks from "./socialLinks"
 
 const Header = () => (
     <header className="header">
-        <div className="logo">
-            <Logo />
-        </div>
+        <Logo />
         <nav className="nav">
             <ul className="menu">
                 <li>

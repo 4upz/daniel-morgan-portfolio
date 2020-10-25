@@ -1,0 +1,46 @@
+.reviews {
+    text-align: center;
+
+    h1 {
+        @include accent-font;
+    }
+
+    .review-content {
+        padding-bottom: 0.5rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        .button {
+            bottom: 60px;
+        }
+    }
+}
+
+.ig-feed {
+    h1 {
+        @include accent-font;
+        text-align: center;
+    }
+
+    .widget {
+        min-height: 400px;
+        position: relative;
+        max-width: 70%;
+        margin: auto;
+        .lightwidget-widget {
+            height: 100%;
+            width: 100%;
+            border: 0;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

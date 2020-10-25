@@ -1,20 +1,19 @@
 .button {
-    background-color: $white;
-    color: $black;
+    background-color: $red;
+    color: $white;
     padding: 0.5rem 2rem;
-    border: 1px solid $black;
     font-weight: bold;
     cursor: pointer;
     transition: 0.2s all ease;
     border-radius: 1px;
+    box-shadow: 4px 4px 2px 1px rgba($black, 0.2);
 
     &.link {
         text-decoration: none;
     }
 
     &:hover {
-        color: $white;
-        background-color: $gold;
-        border-color: black;
+        color: $red;
+        background-color: $white;
     }
 }

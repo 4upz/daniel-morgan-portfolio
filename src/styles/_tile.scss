@@ -1,6 +1,8 @@
 .tile-container {
     display: flex;
     flex-direction: row;
+    position: relative;
+    margin-top: 2rem;
 
     .tile-background {
         box-sizing: border-box;
@@ -18,9 +20,10 @@
             }
 
             .card {
-                min-height: 150px;
-                position: relative;
+                min-height: 270px;
                 padding: 1rem;
+                width: 100%;
+                background-color: rgba(black, 0.5);
             }
         }
     }
