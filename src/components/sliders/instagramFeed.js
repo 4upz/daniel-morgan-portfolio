@@ -3,16 +3,17 @@ import Container from "../shared/container"
 
 const InstagramFeed = () => (
     <Container className="ig-feed">
-        <h1>Follow Me on Instagram</h1>
+        <h1>Social Media</h1>
         {/* TODO" Convert to Gatsby/React Responsive iFrame */}
         <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
         <iframe
             title="IGFeed"
-            src="//lightwidget.com/widgets/1cc87fbc18b25598a567abc45c63ca90.html"
+            src="//lightwidget.com/widgets/c2eb0c27b9ac5e16994ad7d17f94d21b.html"
             scrolling="no"
             allowtransparency="true"
             className="lightwidget-widget"
-            style={{ width: "100%", border: 0 }}
+            width="600"
+            height="400"
         ></iframe>
     </Container>
 )
