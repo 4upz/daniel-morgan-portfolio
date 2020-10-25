@@ -28,7 +28,7 @@ const BusinessBackground = ({ className, children }) => (
                     fluid={imageDataWithOverlay}
                     backgroundColor={`#040e18`}
                     objectFit="cover"
-                    objectPosition="50% 50%"
+                    objectPosition="50% 0%"
                 >
                     {children}
                 </BackgroundImage>
