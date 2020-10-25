@@ -49,5 +49,3 @@ module.exports = {
         // `gatsby-plugin-offline`,
     ],
 }
-
-console.log(process.env.TYPEKIT_ID)
