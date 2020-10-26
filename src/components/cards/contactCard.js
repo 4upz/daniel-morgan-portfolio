@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import Container from "../shared/container"
 import Card from "./card"
 
@@ -7,8 +7,8 @@ const ContactCard = () => (
         <h1>Let's Talk</h1>
         <Card className="contact">
             <p>
-                I'm always open to potential partnernships, business
-                opportunities, and even questions or a friendly chat.
+                I'm always open to potential partnernships, networking
+                opportunities, or even a friendly chat.
                 <br />
                 Fill out the form below and I'll get back to you as soon as I
                 can!
