@@ -12,3 +12,62 @@
         }
     }
 }
+
+.contact-section {
+    height: 90%;
+    h1 {
+        @include accent-font;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    p {
+        color: $black;
+    }
+    .card.contact {
+        background-color: $gold;
+        min-height: 80%;
+        padding: 1rem;
+        max-width: 1200px;
+
+        .contact-form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+
+            label {
+                margin: 0.5rem 2rem;
+                color: $black;
+                @include accent-font;
+
+                input,
+                textarea {
+                    font: initial;
+                }
+            }
+            input,
+            textarea {
+                width: 100%;
+                padding: 0.5rem;
+            }
+
+            .name,
+            .email {
+                width: 40%;
+                margin-top: 0;
+            }
+
+            .subject {
+                width: 75%;
+            }
+
+            .message {
+                width: 100%;
+            }
+
+            .button {
+                border: none;
+            }
+        }
+    }
+}

@@ -46,9 +46,10 @@ const quotes = [
     "God is good all the time and all the time God is good.",
     "I don’t know about you but I’ve seen Him work in my life yesterday, today, and forever.",
     "They may try and put me in the grave early but I’m going to keep breathing.",
-    "I know I have God in my mouth a lot. But I’m telling you right now, all that I am and all that I have is because of Him. Without Him, I have nothing or no one. Without Him, I am nothing or no one. I am truly a leader but a follower. All success comes from and with God.",
     "The wrong things in life can last temporarily. But the right things in life can last a very long time.",
     "I was saying and doing all this before you.",
     "Don’t live in the past. Don’t live in the future. Live in the now.",
     "There will be times in which creations may love me and hate me but I will take both into consideration as positive signs and negative signs.",
+    "It’s not me against the world, it’s the world against me.",
+    "You just have to play the game. It’s around you!",
 ]
