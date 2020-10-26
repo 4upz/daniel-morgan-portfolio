@@ -13,11 +13,12 @@ const ContactCard = () => (
             </p>
             {/* TODO: Change these labels to use the "for" attribute so labels can be styled */}
             <form
+                name="contact"
                 className="contact-form"
                 method="post"
                 netlify-honeypot="bot-field"
                 data-netlify="true"
-                name="contact"
+                // action="/thank-you" -- TODO: Make this into a custom thank you page
             >
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
