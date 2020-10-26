@@ -18,13 +18,16 @@
     h1 {
         @include accent-font;
         text-align: center;
+        margin-bottom: 1rem;
     }
     p {
         color: $black;
     }
     .card.contact {
         background-color: $gold;
-        height: 80%;
+        min-height: 80%;
+        padding: 1rem;
+        max-width: 1200px;
 
         .contact-form {
             display: flex;
@@ -45,6 +48,7 @@
             input,
             textarea {
                 width: 100%;
+                padding: 0.5rem;
             }
 
             .name,
@@ -59,6 +63,10 @@
 
             .message {
                 width: 100%;
+            }
+
+            .button {
+                border: none;
             }
         }
     }

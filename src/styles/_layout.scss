@@ -70,7 +70,7 @@ h1 {
     position: relative;
 
     &.hero {
-        height: calc(100vh - 125px);
+        min-height: calc(100vh - 125px);
     }
 }
 
@@ -78,7 +78,6 @@ h1 {
     margin: auto;
     padding: 1.5rem;
     text-align: center;
-    background-color: $light-grey;
     .logo {
         width: max-content;
         margin: auto;
