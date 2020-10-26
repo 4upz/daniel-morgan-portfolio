@@ -1,4 +1,5 @@
 import React from "react"
+import Card from "./card"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons"
 import Slider from "react-slick"
@@ -21,7 +22,7 @@ const sliderSettings = {
 }
 
 const QuotesCard = () => (
-    <div className="card quote overlap top">
+    <Card className="quote overlap top">
         <FontAwesomeIcon icon={faQuoteLeft} className="icon left" />
         <Slider {...sliderSettings}>
             {quotes.map(quote => (
@@ -31,7 +32,7 @@ const QuotesCard = () => (
             ))}
         </Slider>
         <FontAwesomeIcon icon={faQuoteRight} className="icon right" />
-    </div>
+    </Card>
 )
 
 export default QuotesCard

@@ -12,3 +12,54 @@
         }
     }
 }
+
+.contact-section {
+    height: 90%;
+    h1 {
+        @include accent-font;
+        text-align: center;
+    }
+    p {
+        color: $black;
+    }
+    .card.contact {
+        background-color: $gold;
+        height: 80%;
+
+        .contact-form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+
+            label {
+                margin: 0.5rem 2rem;
+                color: $black;
+                @include accent-font;
+
+                input,
+                textarea {
+                    font: initial;
+                }
+            }
+            input,
+            textarea {
+                width: 100%;
+            }
+
+            .name,
+            .email {
+                width: 40%;
+                margin-top: 0;
+            }
+
+            .subject {
+                width: 75%;
+            }
+
+            .message {
+                width: 100%;
+            }
+        }
+    }
+}
