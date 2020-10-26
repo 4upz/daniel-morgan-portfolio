@@ -1,6 +1,6 @@
 import React from "react"
 import BackgroundImage from "gatsby-background-image"
-import { StaticQuery } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 
 const MinistryBackground = ({ className, children }) => (
     <StaticQuery
