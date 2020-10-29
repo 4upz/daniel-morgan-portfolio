@@ -7,7 +7,7 @@ import Section from "../components/shared/section"
 const ContactPage = () => (
     <Layout>
         <SEO title="Contact" />
-        <Section isHero>
+        <Section isHero className="contact">
             <ContactCard />
         </Section>
     </Layout>
