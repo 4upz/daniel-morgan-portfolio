@@ -1,11 +1,11 @@
 /* *** Color Palette & Variables ** */
-$gold: #ffd600;
-$light-gold: #ffde22;
-$red: #bf211e;
-$grey: #959595;
-$light-grey: #cecdcd;
+
+// Dark Mode
+$dark: #121212;
 $black: #3d3d3d;
+$gold: #ffd600;
 $white: #ffffff;
+$red: #bf211e;
 
 @mixin accent-font {
     font-family: anisette-std, sans-serif;
