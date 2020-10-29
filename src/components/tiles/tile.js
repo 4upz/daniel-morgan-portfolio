@@ -5,7 +5,7 @@ import Container from "../shared/container"
 
 const Tile = ({ title, description, ctaText, ctaLink }) => (
     <Container className="tile-content vertical-center">
-        <h2>{title}</h2>
+        <h1>{title}</h1>
         <CTACard
             cardText={description}
             buttonText={ctaText}
