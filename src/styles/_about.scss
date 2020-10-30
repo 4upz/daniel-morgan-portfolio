@@ -1,0 +1,49 @@
+.about-hero {
+    margin: 2rem;
+
+    h2,
+    p {
+        margin-bottom: 1rem;
+    }
+
+    .about-image {
+        max-width: 500px;
+    }
+
+    .intro {
+        position: relative;
+        margin: 2rem auto;
+        .about-hero-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 80%;
+            right: 0;
+            top: 0;
+            bottom: initial;
+            left: initial;
+            transform: unset;
+
+            h2 {
+                text-align: center;
+            }
+
+            .card {
+                margin: 1rem 0;
+                padding: 1rem;
+                text-align: left;
+            }
+        }
+    }
+}
+
+.background {
+    margin-top: 2rem;
+    .card {
+        margin: 1rem auto;
+        padding: 1.5rem;
+        p {
+            text-align: left;
+        }
+    }
+}
