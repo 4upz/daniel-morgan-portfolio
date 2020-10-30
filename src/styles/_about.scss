@@ -24,9 +24,14 @@
             left: initial;
             transform: unset;
 
+            h2 {
+                text-align: center;
+            }
+
             .card {
                 margin: 1rem 0;
                 padding: 1rem;
+                text-align: left;
             }
         }
     }
