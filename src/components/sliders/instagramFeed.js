@@ -8,10 +8,11 @@ const InstagramFeed = () => (
         <Container className="widget">
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
             <iframe
+                title="Instagram Feed"
                 src="https://cdn.lightwidget.com/widgets/61e07e19455a53d1b3c200ee85218a49.html"
                 scrolling="no"
                 allowtransparency="true"
-                class="lightwidget-widget"
+                className="lightwidget-widget"
                 style={{ width: "100%", border: 0, overflow: "hidden" }}
             ></iframe>
         </Container>
