@@ -1,0 +1,39 @@
+.business-hero {
+    @extend .about-hero;
+
+    .business-image {
+        @extend .about-image;
+    }
+
+    .business-hero-content {
+        @extend .about-hero-content;
+        align-content: center;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+
+        .card {
+            width: 90%;
+        }
+    }
+
+    .card {
+        text-align: left;
+        margin: 1rem auto;
+        padding: 1.5rem;
+    }
+}
+
+.wug-logo {
+    max-width: 215px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.wug-info {
+    margin: 1rem auto;
+    padding: 1.5rem;
+    padding-top: 0.5rem;
+    p {
+        text-align: left;
+    }
+}
