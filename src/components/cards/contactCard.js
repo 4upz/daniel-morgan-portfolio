@@ -4,7 +4,6 @@ import Card from "./card"
 
 const ContactCard = () => (
     <Container className="contact-section">
-        <h1>Let's Talk</h1>
         <Card className="contact">
             <p>
                 I'm always open to potential partnernships, networking
