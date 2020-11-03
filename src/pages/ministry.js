@@ -12,7 +12,7 @@ import ContentCard from "../components/cards/contentCard"
 const MinistryPage = () => (
     <Layout>
         <SEO title="Ministry" />
-        <Section isHero>
+        <Section>
             <Banner
                 title="Ministry"
                 subtitle='"Philippians 4:13 (KJV) “I can do all things through Christ which strengtheneth me.”'

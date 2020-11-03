@@ -18,8 +18,10 @@ const IndexPage = () => (
                 title="Daniel S. Morgan Jr."
                 subtitle="Weirdest Kid From Cleveland"
             />
-            <Container className="home-hero">
+            <Container className="quotes-container">
                 <QuotesCard />
+            </Container>
+            <Container className="home-hero">
                 {/* TODO: Make the HeroTiles a flexible Component Again */}
                 <HeroTiles />
             </Container>

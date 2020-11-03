@@ -12,7 +12,7 @@ import ContentCard from "../components/cards/contentCard"
 const AboutPage = () => (
     <Layout>
         <SEO title="About" />
-        <Section isHero>
+        <Section>
             <Banner title="About Me" subtitle='"Dan The Man"' />
             <Container className="about-hero">
                 <Wrap>

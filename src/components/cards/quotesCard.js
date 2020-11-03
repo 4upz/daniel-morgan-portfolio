@@ -22,7 +22,7 @@ const sliderSettings = {
 }
 
 const QuotesCard = () => (
-    <Card className="quote overlap top">
+    <Card className="quote vertical-center">
         <FontAwesomeIcon icon={faQuoteLeft} className="icon left" />
         <Slider {...sliderSettings}>
             {quotes.map(quote => (
