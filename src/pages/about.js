@@ -12,7 +12,7 @@ import ContentCard from "../components/cards/contentCard"
 const AboutPage = () => (
     <Layout>
         <SEO title="About" />
-        <Section>
+        <Section isHero>
             <Banner title="About Me" subtitle='"Dan The Man"' />
             <Container className="about-hero">
                 <Wrap>
@@ -44,7 +44,8 @@ const AboutPage = () => (
                         </Container>
                     </Container>
                     <Container className="background">
-                        <ContentCard title="Background/History">
+                        <Banner title="Background" />
+                        <ContentCard>
                             <p>
                                 I was born on October 18, 2001, in Cleveland,
                                 Ohio to businessman Daniel Morgan and nurse
