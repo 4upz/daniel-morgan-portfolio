@@ -1,0 +1,98 @@
+.ministry-hero {
+    margin: 2rem;
+
+    .intro {
+        position: relative;
+        .ministry-image {
+            max-width: 500px;
+            margin: auto;
+        }
+        .card {
+            width: 100%;
+            bottom: 0;
+        }
+    }
+
+    .wrap {
+        padding-bottom: 0;
+    }
+
+    .card {
+        text-align: left;
+        padding: 0.5rem 1.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
+
+.testimony {
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    .card {
+        width: 100%;
+        text-align: left;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .lifeboat {
+        position: relative;
+        margin: 0 auto;
+
+        &:after {
+            content: "";
+            position: absolute;
+            width: 3px;
+            background-color: white;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+
+        .card-container {
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+
+            &.left {
+                left: 0;
+            }
+
+            &.right {
+                left: 50%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .timeline::after {
+                left: 31px;
+            }
+
+            .card-container {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+
+            .left::after,
+            .right::after {
+                left: 15px;
+            }
+
+            .right {
+                left: 0%;
+            }
+        }
+    }
+
+    .footnote {
+        text-align: center;
+        padding: 0;
+        background-color: transparent;
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

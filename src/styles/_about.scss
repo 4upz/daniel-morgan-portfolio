@@ -41,7 +41,9 @@
     margin-top: 2rem;
     .card {
         margin: 1rem auto;
-        padding: 1.5rem;
+        width: 100%;
+        padding: 0;
+        background-color: transparent;
         p {
             text-align: left;
         }
