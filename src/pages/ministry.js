@@ -47,7 +47,7 @@ const MinistryPage = () => (
                         </ContentCard>
                     </Container>
                 </Wrap>
-                <ContentCard>
+                <ContentCard className="description">
                     <p>
                         I have had a strong and positive impact on many people’s
                         lives with my words and actions with the help of the
