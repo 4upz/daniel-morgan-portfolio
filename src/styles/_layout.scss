@@ -62,6 +62,7 @@ h1 {
     h1 {
         @include accent-font;
         @include color-shift($white, $gold);
+        padding: 0 1rem;
     }
 }
 
