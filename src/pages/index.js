@@ -22,7 +22,6 @@ const IndexPage = () => (
                 <QuotesCard />
             </Container>
             <Container className="home-hero">
-                {/* TODO: Make the HeroTiles a flexible Component Again */}
                 <HeroTiles />
             </Container>
         </Section>

@@ -12,7 +12,7 @@ const Header = () => {
         <Container className="header-container">
             <header className="header">
                 <Logo />
-                <nav className="nav">
+                <nav className={`nav ${isOpen ? "visible" : ""}`}>
                     <ul className="menu">
                         <li>
                             <Link to="/about">About</Link>
