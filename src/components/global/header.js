@@ -6,13 +6,23 @@ import Container from "../shared/container"
 import NavToggle from "./navToggle"
 
 const Header = () => {
-    const [isOpen, setOpen] = React.useState(false)
+    const [navShow, setNavShow] = React.useState(false)
+
+    React.useEffect(() => {
+        const body = document.body
+        const gatsby = document.getElementById("gatsby-focus-wrapper")
+        if (navShow) {
+            body.style.setProperty("overflow", "hidden")
+        } else {
+            body.style.removeProperty("overflow")
+        }
+    }, [navShow])
 
     return (
         <Container className="header-container">
             <header className="header">
                 <Logo />
-                <nav className={`nav ${isOpen ? "visible" : ""}`}>
+                <nav role="menu" className={`nav ${navShow ? "visible" : ""}`}>
                     <ul className="menu">
                         <li>
                             <Link to="/about">About</Link>
@@ -30,8 +40,8 @@ const Header = () => {
                 </nav>
                 <SocialLinks />
                 <NavToggle
-                    onClick={() => setOpen(!isOpen)}
-                    isToggled={isOpen}
+                    isToggled={navShow}
+                    onClick={() => setNavShow(!navShow)}
                 />
             </header>
         </Container>

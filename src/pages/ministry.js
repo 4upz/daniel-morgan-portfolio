@@ -33,19 +33,19 @@ const MinistryPage = () => (
                                 don’t claim to be better than any creation; I am
                                 just different.
                             </p>
-                            <p>
-                                Contemporarily, I currently attend Center of
-                                Hope Bible Fellowship under the leadership of
-                                Pastor Rory Tate and First Lady Nicole Tate as a
-                                musician and youth leader. God has given me a
-                                role to use my gifts effectively and efficiently
-                                by playing instruments and teaching about life
-                                through Biblical principles inside and outside a
-                                variety of churches across Northeast Ohio.
-                            </p>
                         </ContentCard>
                     </Container>
                     <ContentCard className="description">
+                        <p>
+                            Contemporarily, I currently attend Center of Hope
+                            Bible Fellowship under the leadership of Pastor Rory
+                            Tate and First Lady Nicole Tate as a musician and
+                            youth leader. God has given me a role to use my
+                            gifts effectively and efficiently by playing
+                            instruments and teaching about life through Biblical
+                            principles inside and outside a variety of churches
+                            across Northeast Ohio.
+                        </p>
                         <p>
                             I have had a strong and positive impact on many
                             people’s lives with my words and actions with the
