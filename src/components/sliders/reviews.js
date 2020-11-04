@@ -31,7 +31,7 @@ const Reviews = () => (
                     />
                 ))}
             </Slider>
-            <LinkButton to="/about">View All</LinkButton>
+            <LinkButton to="/business#reviews">View All</LinkButton>
         </Container>
     </Container>
 )

@@ -1,10 +1,11 @@
-import PropTypes from "prop-types"
+import PropTypes, { string } from "prop-types"
 import React from "react"
 import Divider from "./divider"
 
-const Section = ({ background, isHero, className, children }) => (
+const Section = ({ background, isHero, className, children, id }) => (
     <section
         className={`section ${background} ${isHero && "hero"} ${className}`}
+        id={id}
     >
         {children}
         <Divider />
@@ -15,6 +16,7 @@ Section.propTypes = {
     isHero: PropTypes.bool,
     background: PropTypes.oneOf(["primary", "secondary"]),
     className: PropTypes.string,
+    id: string,
     children: PropTypes.node.isRequired,
 }
 

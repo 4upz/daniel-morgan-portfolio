@@ -12,7 +12,7 @@ import ContentCard from "../components/cards/contentCard"
 const MinistryPage = () => (
     <Layout>
         <SEO title="Ministry" />
-        <Section isHero>
+        <Section>
             <Banner
                 title="Ministry"
                 subtitle='"Philippians 4:13 (KJV) “I can do all things through Christ which strengtheneth me.”'
@@ -34,34 +34,34 @@ const MinistryPage = () => (
                                 just different.
                             </p>
                             <p>
-                                I currently attend Center of Hope Bible
-                                Fellowship under the leadership of Pastor Rory
-                                Tate and First Lady Nicole Tate as a musician
-                                and youth speaker. God has used me by giving me
-                                the ability to use my gifts effectively and
-                                efficiently in the “Body of Christ” by utilizing
-                                drums and conducting speaking engagements inside
-                                and outside a variety of churches across
-                                Northeast Ohio.
+                                Contemporarily, I currently attend Center of
+                                Hope Bible Fellowship under the leadership of
+                                Pastor Rory Tate and First Lady Nicole Tate as a
+                                musician and youth leader. God has given me a
+                                role to use my gifts effectively and efficiently
+                                by playing instruments and teaching about life
+                                through Biblical principles inside and outside a
+                                variety of churches across Northeast Ohio.
                             </p>
                         </ContentCard>
                     </Container>
+                    <ContentCard className="description">
+                        <p>
+                            I have had a strong and positive impact on many
+                            people’s lives with my words and actions with the
+                            help of the Prodigious God and creations. That being
+                            stated, I will continue to play drums and complete
+                            speaking engagements inside and outside of churches
+                            across Northeast Ohio until God calls and chooses me
+                            to transition. I strongly believe it is not the work
+                            of my own but the creations in and around my life.
+                            But most of all, the power in which God has put in
+                            me to do for His glory. And if He can do it with me
+                            and for me, He can do the same with others and for
+                            others.
+                        </p>
+                    </ContentCard>
                 </Wrap>
-                <ContentCard className="description">
-                    <p>
-                        I have had a strong and positive impact on many people’s
-                        lives with my words and actions with the help of the
-                        Prodigious God and creations. That being stated, I will
-                        continue to play drums and complete speaking engagements
-                        inside and outside of churches across Northeast Ohio
-                        until God calls and chooses me to transition. I strongly
-                        believe it is not the work of my own but the creations
-                        in and around my life. But most of all, the power in
-                        which God has put in me to do for His glory. And if He
-                        can do it with me and for me, He can do the same with
-                        others and for others.
-                    </p>
-                </ContentCard>
             </Container>
         </Section>
         <Section className="testimony">

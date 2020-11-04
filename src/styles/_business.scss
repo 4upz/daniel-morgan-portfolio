@@ -38,3 +38,15 @@
         text-align: left;
     }
 }
+
+.review-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .card {
+        width: 45%;
+        margin: 1rem;
+        height: auto;
+    }
+}
