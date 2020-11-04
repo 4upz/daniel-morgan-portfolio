@@ -9,6 +9,7 @@ import Container from "../components/shared/container"
 import Wrap from "../components/shared/wrap"
 import BusinessImage from "../components/assets/businessImage"
 import WakingUpGlobalLogo from "../components/assets/wugLogo"
+import ReviewTiles from "../components/tiles/reviewTiles"
 
 const BusinessPage = () => (
     <Layout>
@@ -34,12 +35,15 @@ const BusinessPage = () => (
                                     from easy and is far from easy today. But I
                                     have pressed my way through and will
                                     continuously press my way through to elevate
-                                    into new dimensions. That all being stated,
-                                    I simply would like to help grow the
-                                    environment and economy because it is
-                                    important to me. I will do whatever I can to
-                                    help elevate others in the environment and
-                                    economy overall.
+                                    into new dimensions. As of today, I have
+                                    fractions of ownership in businesses across
+                                    different industries while working with
+                                    them. That all being stated, I simply would
+                                    like to help grow the environment and
+                                    economy because it is important to me. I
+                                    will do whatever I can to help elevate
+                                    others in the environment and economy
+                                    overall.
                                 </p>
                             </ContentCard>
                         </Container>
@@ -53,17 +57,18 @@ const BusinessPage = () => (
                             one of my first businesses called “WakingUp” but
                             soon had the name changed to “WakingUpGlobal (WUG)”
                             in January of 2017 by one of my general business
-                            partners. However, in the summer of 2018, it
-                            purposely had a shutdown. In the summer of 2019,
-                            WakingUpGlobal attempted to make its return but
-                            unexpectedly failed. However, in the spring of 2020,
-                            a group of business partners and I had decided it
-                            was best to officially make a return to continue the
-                            mission and vision that WakingUpGlobal had promised
-                            now and in the future.
+                            partners. However, in the summer of 2018, an
+                            intentional shutdown took place. In the summer of
+                            2019, WakingUpGlobal (WUG) attempted to make its
+                            return but unexpectedly failed. However, in the
+                            spring of 2020, a group of business partners and I
+                            had decided it was best to officially make a return
+                            to continue the mission and vision that
+                            WakingUpGlobal (WUG) had promised now and in the
+                            future.
                         </p>
                         <p>
-                            Furthermore, this is just the beginning. I am far
+                            Not to mention, this is just the beginning. I am far
                             from done starting and building for-profit and
                             non-profit businesses in a variety of industries.
                         </p>
@@ -103,6 +108,12 @@ const BusinessPage = () => (
                         surrounding environment and economy today.
                     </p>
                 </ContentCard>
+            </Wrap>
+        </Section>
+        <Section id="reviews">
+            <Banner title="Reviews" subtitle="What My Peers Say About Me" />
+            <Wrap>
+                <ReviewTiles />
             </Wrap>
         </Section>
     </Layout>

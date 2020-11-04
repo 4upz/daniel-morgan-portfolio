@@ -6,10 +6,6 @@
         margin-bottom: 1rem;
     }
 
-    .about-image {
-        max-width: 500px;
-    }
-
     .intro {
         position: relative;
         margin: 2rem auto;
@@ -30,22 +26,62 @@
 
             .card {
                 margin: 1rem 0;
-                padding: 1rem;
+                padding: 0.5rem 1.5rem;
                 text-align: left;
+
+                p {
+                    margin-bottom: 0.5rem;
+                }
             }
         }
     }
 }
 
+.about-image {
+    max-width: 500px;
+
+    &.secondary {
+        width: 50%;
+    }
+}
+
 .background {
     margin-top: 2rem;
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
     .card {
         margin: 1rem auto;
-        width: 100%;
+        width: 50%;
         padding: 0;
         background-color: transparent;
         p {
             text-align: left;
         }
+    }
+}
+
+.remarks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .card {
+        margin: 1rem auto;
+        padding: 0.5rem 1rem 1.5rem;
+        text-align: left;
+    }
+}
+
+.acronym {
+    text-align: center;
+    span {
+        color: $gold;
+        font-weight: bold;
+        font-size: 2rem;
     }
 }
