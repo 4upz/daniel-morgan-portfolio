@@ -8,8 +8,13 @@
     .business-hero-content {
         @extend .about-hero-content;
         align-content: center;
-        top: 50% !important;
-        transform: translateY(-50%) !important;
+        position: relative;
+
+        @media screen and (min-width: $desktop) {
+            position: absolute;
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+        }
 
         .card {
             width: 90%;
@@ -20,6 +25,11 @@
         text-align: left;
         margin: 1rem auto;
         padding: 1.5rem;
+        width: 100%;
+
+        @media screen and (min-width: $desktop) {
+            width: 80%;
+        }
     }
 }
 
@@ -30,10 +40,10 @@
 }
 
 .wug-info {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     background-color: transparent;
     padding: 0;
-    margin: 0;
     p {
         text-align: left;
     }
@@ -41,12 +51,23 @@
 
 .review-cards {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: space-around;
+
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .card {
-        width: 45%;
+        width: 80%;
         margin: 1rem;
         height: auto;
+
+        @media screen and (min-width: $desktop) {
+            width: 45%;
+        }
     }
 }
