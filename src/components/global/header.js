@@ -23,6 +23,11 @@ const Header = () => {
                 <Logo />
                 <nav className={`nav ${navShow ? "visible" : ""}`}>
                     <ul className="menu">
+                        {navShow && (
+                            <li>
+                                <Link to="/">Home</Link>
+                            </li>
+                        )}
                         <li>
                             <Link to="/about">About</Link>
                         </li>
