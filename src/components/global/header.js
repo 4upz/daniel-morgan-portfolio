@@ -10,7 +10,6 @@ const Header = () => {
 
     React.useEffect(() => {
         const body = document.body
-        const gatsby = document.getElementById("gatsby-focus-wrapper")
         if (navShow) {
             body.style.setProperty("overflow", "hidden")
         } else {
@@ -39,6 +38,7 @@ const Header = () => {
                     </ul>
                 </nav>
                 <SocialLinks />
+                {/* TODO: Stop this from jumping to the top of the page when clicked */}
                 <NavToggle
                     isToggled={navShow}
                     onClick={() => setNavShow(!navShow)}

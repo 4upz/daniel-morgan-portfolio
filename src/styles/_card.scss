@@ -8,11 +8,13 @@
 
     &.quote {
         margin: auto;
-        width: 80%;
+        width: 100%;
         max-width: 1200px;
-        position: absolute;
-        left: 0;
-        right: 0;
+        position: relative;
+
+        @media screen and (min-width: $desktop) {
+            width: 80%;
+        }
         .quote-text {
             margin: auto;
             max-width: 80%;
@@ -46,13 +48,22 @@
         position: relative;
         transition: all 0.2s ease;
 
+        @media screen and (min-width: $desktop) {
+            height: 25rem;
+        }
+
         &:hover {
             box-shadow: 12px 12px 2px 1px rgba($black, 0.2);
             transform: scale(1.05);
         }
+
         .content {
             margin-bottom: 0.5rem;
-            text-overflow: ellipsis;
+            overflow: scroll;
+
+            @media screen and (min-width: $desktop) {
+                overflow: hidden;
+            }
         }
 
         .name {
@@ -64,7 +75,5 @@
 
 .quotes-container {
     min-height: 80px;
-    position: relative;
-    width: 100%;
-    margin: 0.5rem 1rem 0;
+    margin: 1rem 1rem;
 }

@@ -20,16 +20,15 @@
             position: fixed;
             right: 0;
             z-index: 10;
-            margin: 0 1rem;
-            padding: 0 1rem;
+            padding: 2rem 1rem;
+
+            @media screen and (min-width: $desktop) {
+                display: none;
+            }
 
             .menu-icon {
                 color: $white;
                 font-size: 2rem;
-
-                @media screen and (min-width: $desktop) {
-                    display: none;
-                }
             }
         }
 
@@ -67,9 +66,9 @@
             top: 0;
             right: 0;
             // Make sure this color has an opacity of less than 1
-            background: rgba($black, 0.2);
+            background: rgba($dark, 0.5);
             // This be the blur
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(7px);
 
             @media screen and (min-width: $desktop) {
                 display: block;

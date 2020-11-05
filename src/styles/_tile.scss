@@ -1,18 +1,30 @@
 .tile-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
+
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+    }
 
     .tile-background {
         box-sizing: border-box;
-        width: calc(100% / 3);
+        width: 100%;
         min-height: calc(100vh - 300px);
         text-align: center;
         background-color: $red;
         position: relative;
+        display: flex;
+        align-items: center;
+
+        @media screen and (min-width: $desktop) {
+            width: calc(100% / 3);
+        }
 
         .tile-content {
             width: 100%;
+            margin: 2rem 0;
+
             h1 {
                 margin: 1rem;
                 color: $white;
@@ -20,7 +32,10 @@
             }
 
             .card {
-                min-height: 270px;
+                display: flex;
+                position: relative;
+                align-items: center;
+                min-height: 300px;
                 padding: 1rem;
                 width: 100%;
                 background-color: rgba(black, 0.5);
