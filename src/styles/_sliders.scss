@@ -25,10 +25,15 @@
     }
 
     .widget {
-        min-height: 400px;
+        min-height: 200px;
         position: relative;
-        max-width: 70%;
         margin: auto;
+
+        @media screen and (min-width: $desktop) {
+            min-height: 400px;
+            max-width: 70%;
+        }
+
         .lightwidget-widget {
             height: 100%;
             width: 100%;

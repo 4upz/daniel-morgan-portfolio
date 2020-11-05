@@ -60,7 +60,7 @@ export const reviews = [
     },
     {
         content:
-            "Daniel Morgan Jr.,, or Dan the man, is a super great guy. He is very determined and can work countless hours until he knows what he needs to be done is done. He is very smart and still loves to gain knowledge in any form he can. Daniel is also very reliable.",
+            "Daniel Morgan Jr., or Dan the man, is a super great guy. He is very determined and can work countless hours until he knows what he needs to be done is done. He is very smart and still loves to gain knowledge in any form he can. Daniel is also very reliable.",
         author: "Stephon Harrison",
     },
     {

@@ -6,13 +6,22 @@ import Container from "../shared/container"
 import NavToggle from "./navToggle"
 
 const Header = () => {
-    const [isOpen, setOpen] = React.useState(false)
+    const [navShow, setNavShow] = React.useState(false)
+
+    React.useEffect(() => {
+        const body = document.body
+        if (navShow) {
+            body.style.setProperty("overflow", "hidden")
+        } else {
+            body.style.removeProperty("overflow")
+        }
+    }, [navShow])
 
     return (
         <Container className="header-container">
             <header className="header">
                 <Logo />
-                <nav className={`nav ${isOpen ? "visible" : ""}`}>
+                <nav className={`nav ${navShow ? "visible" : ""}`}>
                     <ul className="menu">
                         <li>
                             <Link to="/about">About</Link>
@@ -29,9 +38,10 @@ const Header = () => {
                     </ul>
                 </nav>
                 <SocialLinks />
+                {/* TODO: Stop this from jumping to the top of the page when clicked */}
                 <NavToggle
-                    onClick={() => setOpen(!isOpen)}
-                    isToggled={isOpen}
+                    isToggled={navShow}
+                    onClick={() => setNavShow(!navShow)}
                 />
             </header>
         </Container>

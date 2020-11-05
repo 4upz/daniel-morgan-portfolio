@@ -9,10 +9,7 @@ const ContactPage = () => (
     <Layout>
         <SEO title="Contact" />
         <Section isHero className="contact">
-            <Banner
-                title="Contact"
-                subtitle="Question? Concern? Curious in Learning More? Let's Talk!"
-            />
+            <Banner title="Contact" subtitle="Let's Talk!" />
             <ContactCard />
         </Section>
     </Layout>

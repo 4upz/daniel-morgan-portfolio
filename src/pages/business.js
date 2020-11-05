@@ -111,7 +111,7 @@ const BusinessPage = () => (
             </Wrap>
         </Section>
         <Section id="reviews">
-            <Banner title="Reviews" subtitle="What My Peers Say About Me" />
+            <Banner title="Reviews" subtitle="What Others Say About Me" />
             <Wrap>
                 <ReviewTiles />
             </Wrap>

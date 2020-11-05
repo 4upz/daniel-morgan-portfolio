@@ -16,6 +16,15 @@ const sliderSettings = {
     speed: 7500,
     autoplaySpeed: 500,
     cssEase: "linear",
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                infinite: true,
+            },
+        },
+    ],
 }
 
 const Reviews = () => (

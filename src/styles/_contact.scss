@@ -66,20 +66,34 @@
 
             .name,
             .email {
-                width: 40%;
                 margin-top: 0;
             }
 
-            .subject {
-                width: 75%;
-            }
-
+            .name,
+            .email,
+            .subject,
             .message {
                 width: 100%;
             }
 
             .button {
                 border: none;
+            }
+
+            @media screen and (min-width: $desktop) {
+                .name,
+                .email {
+                    width: 40%;
+                    margin-top: 0;
+                }
+
+                .subject {
+                    width: 75%;
+                }
+
+                .message {
+                    width: 100%;
+                }
             }
         }
     }
