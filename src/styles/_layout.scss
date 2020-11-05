@@ -73,7 +73,10 @@ h1 {
 .wrap {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 1.0875rem 1.45rem;
+
+    @media screen and (min-width: $desktop) {
+        padding: 0 1.0875rem 1.45rem;
+    }
 }
 
 .section {
