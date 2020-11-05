@@ -10,6 +10,10 @@
         .card {
             width: 100%;
             bottom: 0;
+
+            @media screen and (max-width: $desktop) {
+                position: relative;
+            }
         }
     }
 
@@ -71,24 +75,16 @@
             }
         }
 
-        @media screen and (max-width: 600px) {
-            .timeline::after {
-                left: 31px;
-            }
-
+        @media screen and (max-width: $desktop) {
             .card-container {
-                width: 100%;
-                padding-left: 70px;
-                padding-right: 25px;
-            }
+                width: 90%;
+                padding: 0;
+                margin: 1rem auto;
+                z-index: 2;
 
-            .left::after,
-            .right::after {
-                left: 15px;
-            }
-
-            .right {
-                left: 0%;
+                &.right {
+                    left: 0;
+                }
             }
         }
     }
