@@ -43,7 +43,7 @@ const AboutPage = () => (
                                 </p>
                                 <p className="acronym">
                                     <span>D</span>iligent <span>A</span>vid{" "}
-                                    <span>N</span>ifty&Neat <span>I</span>
+                                    <span>N</span>ifty & Neat <span>I</span>
                                     ntellectual <span>E</span>xuberant{" "}
                                     <span>L</span>oving
                                 </p>

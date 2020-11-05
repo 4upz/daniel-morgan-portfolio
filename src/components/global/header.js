@@ -22,7 +22,7 @@ const Header = () => {
         <Container className="header-container">
             <header className="header">
                 <Logo />
-                <nav role="menu" className={`nav ${navShow ? "visible" : ""}`}>
+                <nav className={`nav ${navShow ? "visible" : ""}`}>
                     <ul className="menu">
                         <li>
                             <Link to="/about">About</Link>
