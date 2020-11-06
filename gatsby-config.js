@@ -4,7 +4,8 @@ module.exports = {
     siteMetadata: {
         title: `Daniel S. Morgan Jr.`,
         description: `Daniel S. Morgan Jr. is a musician, youth leader, student, and rising businessman in Cleveland, Ohio.`,
-        author: `@4upz`,
+        author: `@The4upz`,
+        image: `src/images/dsmjr.png`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
