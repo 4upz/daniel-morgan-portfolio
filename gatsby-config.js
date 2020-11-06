@@ -2,8 +2,8 @@ require("dotenv").config()
 
 module.exports = {
     siteMetadata: {
-        title: `Daniel Morgan Portfolio`,
-        description: `Portfolio and online resume for Daniel Morgan Jr.`,
+        title: `Daniel S. Morgan Jr.`,
+        description: `Daniel S. Morgan Jr. is a musician, youth leader, student, and rising businessman in Cleveland, Ohio.`,
         author: `@4upz`,
     },
     plugins: [
