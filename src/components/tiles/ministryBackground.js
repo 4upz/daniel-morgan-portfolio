@@ -29,7 +29,7 @@ const MinistryBackground = ({ className, children }) => (
                     backgroundColor={`#040e18`}
                     objectFit="cover"
                     objectPosition="50% 0%"
-                    style={{ backgroundPosition: "50% 0%" }}
+                    style={{ backgroundPosition: "50% 50%" }}
                 >
                     {children}
                 </BackgroundImage>
