@@ -1,7 +1,7 @@
 // Hard-Coded Review Data
 export const reviews = [
     {
-        content: "Young, Spiritual, Innovative, Go Getter!",
+        content: "Young, spiritual, innovative, go getter!",
         author: "Micah Butler",
     },
     {
@@ -16,7 +16,7 @@ export const reviews = [
     },
     {
         content:
-            "He is a bright individual with an interesting and matching grasp on the world. His positive energy, words of wisdom, and spiritual encouragement are always appreciated. He also has a great grasp on how to run a business at a young age which is very impressive",
+            "He is a bright individual with an interesting and matching grasp on the world. His positive energy, words of wisdom, and spiritual encouragement are always appreciated. He also has a great grasp on how to run a business at a young age which is very impressive.",
         author: "Imani Estrada",
     },
     {
@@ -50,7 +50,7 @@ export const reviews = [
     },
     {
         content:
-            "Daniel, a man of integrity. To me, this means I can count on him if I need to bounce a business idea off his brain or talk from a spiritual point of view. He has a kind spirit and has a strong presence yet a gentle voice. He is not afraid to voice his opinions on any subject we discuss. When I’m talking to Daniel, it’s like speaking to one of my peers hard to believe he’s just 18. We share a love for God, fashion, and entrepreneurship. I often look at him in a room and think to myself ‘Daniel is a living legend",
+            "Daniel, a man of integrity. To me, this means I can count on him if I need to bounce a business idea off his brain or talk from a spiritual point of view. He has a kind spirit and has a strong presence yet a gentle voice. He is not afraid to voice his opinions on any subject we discuss. When I’m talking to Daniel, it’s like speaking to one of my peers hard to believe he’s just 18. We share a love for God, fashion, and entrepreneurship. I often look at him in a room and think to myself Daniel is a living legend.",
         author: "Toka Ivey",
     },
     {

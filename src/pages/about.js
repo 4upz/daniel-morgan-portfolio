@@ -77,9 +77,9 @@ const AboutPage = () => (
                                 <p>
                                     As of today, I am part of the astonishing
                                     high school class of 2020 graduates and
-                                    contemporarily a musician, youth speaker,
-                                    student, and an upcoming businessman after
-                                    withdrawing from college.
+                                    contemporarily serve as a musician, youth
+                                    speaker, student, and an upcoming
+                                    businessman after withdrawing from college.
                                 </p>
                             </ContentCard>
                             <AboutImageSecondary />

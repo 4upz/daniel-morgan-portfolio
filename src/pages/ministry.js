@@ -119,8 +119,8 @@ const MinistryPage = () => (
                                 really die.” Jesus also states in John 10:10
                                 (NKJV), “The thief does not come except to
                                 steal, and to kill, and to destroy. I have come
-                                that they may have life, and that they have may
-                                have it more abundantly.” Praise God!
+                                that they may have life, and that they may have
+                                it more abundantly.” Praise God!
                             </p>
                         </ContentCard>
                     </Container>
