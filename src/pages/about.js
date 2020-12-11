@@ -14,7 +14,7 @@ const AboutPage = () => (
     <Layout>
         <SEO title="About" />
         <Section>
-            <Banner title="About Me" subtitle='"Dan The Man"' />
+            <Banner title="About Me" subtitle="Dan The Man" />
             <Container className="about-hero">
                 <Wrap>
                     <Container className="intro">
