@@ -6,10 +6,7 @@ import contactInfo from "../../../site/settings/contact_info.json"
 
 const SocialLinks = () => (
     <div className="social-links">
-        <a
-            className="icon instagram"
-            href="https://www.instagram.com/dsmjr.real/"
-        >
+        <a className="icon instagram" href={contactInfo.instagram}>
             <FontAwesomeIcon icon={faInstagram} />
         </a>
         <a className="icon" href={`mailto:${contactInfo.email}`}>
