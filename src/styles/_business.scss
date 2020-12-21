@@ -44,8 +44,10 @@
     margin: auto;
     background-color: transparent;
     padding: 0;
+    box-shadow: none;
     p {
         text-align: left;
+        color: $dark;
     }
 }
 
