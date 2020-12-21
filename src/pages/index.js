@@ -16,7 +16,7 @@ const IndexPage = () => (
         <Section isHero>
             <Banner
                 title="Daniel S. Morgan Jr."
-                subtitle="Weirdest Kid From Cleveland"
+                subtitle="Created, Called, and Chosen"
             />
             <Container className="quotes-container">
                 <QuotesCard />

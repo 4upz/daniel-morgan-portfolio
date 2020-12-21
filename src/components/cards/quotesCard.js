@@ -32,6 +32,7 @@ const QuotesCard = () => (
             ))}
         </Slider>
         <FontAwesomeIcon icon={faQuoteRight} className="icon right" />
+        <p className="name">- Daniel S. Morgan Jr.</p>
     </Card>
 )
 
