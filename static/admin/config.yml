@@ -132,10 +132,10 @@ collections:
                       widget: "text",
                   }
                   - {
-                    label: "Reviews",
-                    name: "reviews",
-                    widget: "list",
-                    fields:
-                      - {label: Review, name: review, widget: string}
-                      - {label: Reviewer Name, name: reviewer-name, widget: text}
-                  }
+                      label: "Reviews",
+                      name: "reviews",
+                      widget: "list",
+                      fields:
+                        - {label: Review, name: review, widget: string}
+                        - {label: Reviewer Name, name: reviewer-name, widget: text}
+                    }
