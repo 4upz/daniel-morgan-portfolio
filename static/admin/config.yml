@@ -81,3 +81,61 @@ collections:
                       name: "secondary-statement",
                       widget: "text",
                   }
+            - label: "Business Page"
+              name: "business"
+              file: "site/content/business.json"
+              fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - {
+                        label: "Primary Introduction",
+                        name: "primary-introduction",
+                        widget: "text",
+                    }
+                  - {
+                        label: "Secondary Introduction",
+                        name: "secondary-introduction",
+                        widget: "text",
+                    }
+                  - {
+                        label: "WUG Logo",
+                        name: "wug-logo",
+                        widget: "image",
+                    }
+                  - {
+                      label: "WUG Title",
+                      name: "wug-title",
+                      widget: "text",
+                  }
+                  - {
+                      label: "WUG Subtitle",
+                      name: "wug-subtitle",
+                      widget: "text",
+                  }
+                  - {
+                        label: "WUG Primary",
+                        name: "wug-primary",
+                        widget: "text",
+                    }
+                  - {
+                        label: "WUG Secondary",
+                        name: "wug-secondary",
+                        widget: "text",
+                    }
+                  - {
+                      label: "Reviews Title",
+                      name: "reviews-title",
+                      widget: "text",
+                  }
+                  - {
+                      label: "Reviews Subtitle",
+                      name: "reviews-subtitle",
+                      widget: "text",
+                  }
+                  - {
+                    label: "Reviews",
+                    name: "reviews",
+                    widget: "list",
+                    fields:
+                      - {label: Review, name: review, widget: string}
+                      - {label: Reviewer Name, name: reviewer-name, widget: text}
+                  }
