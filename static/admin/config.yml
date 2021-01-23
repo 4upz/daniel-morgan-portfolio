@@ -1,6 +1,8 @@
 backend:
     name: git-gateway
     branch: main
+    site_url: https://dsmjr.com/
+    logo_url: https://dsmjr.com/favicon-32x32.png?v=599f4478ba52bb7359bd430f5fd09702
 
 media_folder: static/img
 public_folder: /img
@@ -63,4 +65,19 @@ collections:
                       label: "Secondary Image",
                       name: "secondary-image",
                       widget: "image",
+                  }
+          - label: "Contact Page"
+            name: "contact"
+            file: "site/content/contact.json"
+            fields:
+                - { label: "Title", name: "title", widget: "string" }
+                - {
+                      label: "Primary Statement",
+                      name: "primary-statement",
+                      widget: "text",
+                  }
+                - {
+                      label: "Secondary Statement",
+                      name: "secondary-statement",
+                      widget: "text",
                   }
