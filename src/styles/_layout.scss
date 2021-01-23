@@ -4,12 +4,12 @@ body {
 }
 html,
 #gatsby-focus-wrapper {
-    background-color: $dark;
+    background-color: $light;
 }
 
 h1 {
     margin: 0;
-    color: $white;
+    color: $dark;
 }
 
 .center {
@@ -53,8 +53,8 @@ h1 {
 
 .divider {
     width: 50%;
-    border: 2px solid $white;
-    background-color: $white;
+    border: 2px solid $dark;
+    background-color: $dark;
     height: 0;
     margin: 2rem auto;
 }
@@ -65,7 +65,7 @@ h1 {
 
     h1 {
         @include accent-font;
-        @include color-shift($white, $gold);
+        @include color-shift($dark, $gold);
         padding: 0 1rem;
     }
 }
@@ -92,7 +92,7 @@ h1 {
     margin: auto;
     padding: 1.5rem;
     text-align: center;
-    color: $white;
+    color: $dark;
     .logo {
         width: max-content;
         margin: auto;
@@ -107,7 +107,7 @@ h1 {
     .icon {
         padding: 0 1rem;
         text-decoration: none;
-        color: $white;
+        color: $dark;
 
         &:hover {
             cursor: pointer;
@@ -140,11 +140,11 @@ h1 {
     h1 {
         @include accent-font;
         margin-bottom: 0.5rem;
-        color: $white;
+        color: $red;
     }
     h4 {
         margin: 0;
-        color: $white;
+        color: $dark;
     }
 }
 

@@ -2,9 +2,10 @@
     width: 80%;
     padding: 0.5rem;
     margin: auto;
-    color: $white;
-    background-color: $black;
+    color: $dark;
+    background-color: $white;
     text-align: center;
+    box-shadow: 4px 4px 2px 1px rgba($black, 0.2);
 
     &.quote {
         margin: auto;
@@ -22,16 +23,22 @@
 
         .icon {
             position: absolute;
-            color: $gold;
+            color: $red;
             font-size: 25px;
             &.left {
-                left: 15px;
+                left: 10px;
                 top: 10px;
             }
             &.right {
-                right: 15px;
-                bottom: 10px;
+                right: 10px;
+                bottom: 40px;
             }
+        }
+
+        .name {
+            margin: 0;
+            text-align: right;
+            margin-right: 3rem;
         }
     }
 

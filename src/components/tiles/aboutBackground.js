@@ -26,7 +26,7 @@ const AboutBackground = ({ className, children }) => (
                     Tag="div"
                     className={className}
                     fluid={imageDataWithOverlay}
-                    backgroundColor={`#040e18`}
+                    backgroundColor="transparent"
                     objectFit="cover"
                     objectPosition="50% 0%"
                 >

@@ -9,11 +9,11 @@
     margin: 3rem 0;
 
     .card {
-        background-color: $black;
+        background-color: $white;
 
         p {
             font-size: 30px;
-            color: $white;
+            color: $dark;
             font-weight: bold;
         }
     }
@@ -45,7 +45,7 @@
 
             label {
                 margin: 0.5rem 2rem;
-                color: $white;
+                color: $dark;
                 @include accent-font;
 
                 input,
@@ -57,10 +57,11 @@
             textarea {
                 width: 100%;
                 padding: 0.5rem;
-                border: 2px solid $white;
+                border: 1px solid $dark;
+                background-color: $light;
                 &:focus {
                     outline: none;
-                    border-color: $gold;
+                    border-color: $red;
                 }
             }
 

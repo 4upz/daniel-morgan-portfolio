@@ -26,7 +26,7 @@ const MinistryBackground = ({ className, children }) => (
                     Tag="div"
                     className={className}
                     fluid={imageDataWithOverlay}
-                    backgroundColor={`#040e18`}
+                    backgroundColor="transparent"
                     objectFit="cover"
                     objectPosition="50% 0%"
                     style={{ backgroundPosition: "50% 50%" }}

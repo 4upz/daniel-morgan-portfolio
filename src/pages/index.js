@@ -7,7 +7,7 @@ import QuotesCard from "../components/cards/quotesCard"
 import HeroTiles from "../components/tiles/heroTiles"
 import Container from "../components/shared/container"
 import Reviews from "../components/sliders/reviews"
-import InstagramFeed from "../components/sliders/instagramFeed"
+// import InstagramFeed from "../components/sliders/instagramFeed"
 import CTACard from "../components/cards/ctaCard"
 
 const IndexPage = () => (
@@ -16,7 +16,7 @@ const IndexPage = () => (
         <Section isHero>
             <Banner
                 title="Daniel S. Morgan Jr."
-                subtitle="Weirdest Kid From Cleveland"
+                subtitle="Created, Called, and Chosen"
             />
             <Container className="quotes-container">
                 <QuotesCard />
@@ -28,9 +28,10 @@ const IndexPage = () => (
         <Section>
             <Reviews />
         </Section>
+        {/* Removing until further notice 
         <Section>
             <InstagramFeed />
-        </Section>
+        </Section> */}
         <Container className="contact-cta">
             <CTACard
                 cardText="Let's Work Together!"

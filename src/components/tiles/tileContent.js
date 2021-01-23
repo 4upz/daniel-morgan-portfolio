@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import CTACard from "../cards/ctaCard"
 import Container from "../shared/container"
 
-const Tile = ({ title, description, ctaText, ctaLink }) => (
+const TileContent = ({ title, description, ctaText, ctaLink }) => (
     <Container className="tile-content">
         <h1>{title}</h1>
         <CTACard
@@ -14,10 +14,10 @@ const Tile = ({ title, description, ctaText, ctaLink }) => (
     </Container>
 )
 
-Tile.propTypes = {
+TileContent.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     ctaText: PropTypes.string.isRequired,
 }
 
-export default Tile
+export default TileContent
