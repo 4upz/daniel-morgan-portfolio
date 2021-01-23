@@ -1,6 +1,7 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+// import { useStaticQuery, graphql } from "gatsby"
+// import Img from "gatsby-image"
+import aboutContent from "../../../site/content/about.json"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -14,7 +15,7 @@ import Img from "gatsby-image"
  */
 
 const AboutImage = () => {
-    const data = useStaticQuery(graphql`
+    /* const data = useStaticQuery(graphql`
         query {
             placeholderImage: file(relativePath: { eq: "dm-about2.jpg" }) {
                 childImageSharp {
@@ -29,11 +30,17 @@ const AboutImage = () => {
     if (!data?.placeholderImage?.childImageSharp?.fluid) {
         return <div>Picture not found</div>
     }
+    */
 
     return (
-        <Img
+        // <Img
+        //     className="about-image"
+        //     fluid={data.placeholderImage.childImageSharp.fluid}
+        // />
+        <img
             className="about-image"
-            fluid={data.placeholderImage.childImageSharp.fluid}
+            alt="Daniel Morgan Jr."
+            src={aboutContent["primary-image"]}
         />
     )
 }

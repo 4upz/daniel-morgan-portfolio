@@ -2,17 +2,11 @@ import React from "react"
 import Container from "../shared/container"
 import Card from "./card"
 
-const ContactCard = () => (
+const ContactCard = ({ primaryStatement, secondaryStatement }) => (
     <Container className="contact-section">
         <Card className="contact">
-            <p>
-                I'm always open to potential partnernships, networking
-                opportunities, or even a friendly chat.
-            </p>
-            <p>
-                Fill out the form below and I'll get back to you as soon as I
-                can!
-            </p>
+            <p>{primaryStatement}</p>
+            <p>{secondaryStatement}</p>
             {/* TODO: Change these labels to use the "for" attribute so labels can be styled */}
             <form
                 name="contact"
